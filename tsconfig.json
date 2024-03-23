@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es2019",
+		"lib": [
+			"esnext",
+			"esnext.array",
+			"esnext.asynciterable",
+			"esnext.intl",
+			"esnext.symbol",
+			"esnext.bigint"
+		],
+		"declaration": false,
+		"sourceMap": false,
+		"removeComments": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"alwaysStrict": true,
+		"allowSyntheticDefaultImports": true,
+		"pretty": true,
+		"allowJs": true,
+		"checkJs": true
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.js",
+		"src/**/*.vue",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.vue"
+	],
+	"exclude": [
+		"**/node_modules",
+		"**/dist"
+	]
+}

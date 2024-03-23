@@ -1,0 +1,46 @@
+{
+  "name": "idquisquam",
+  "version": "1.0.0",
+  "description": "Typescript ESLint shareable config",
+  "main": "index.js",
+  "author": "JaylenOberbrunner",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrancisTorp/idquisquam.git"
+  },
+  "keywords": [
+    "enim",
+    "ts",
+    "eslintconfig",
+    "nemo",
+    "linter",
+    "jshint",
+    "cupiditate",
+    "eslint",
+    "sint"
+  ],
+  "homepage": "https://github.com/FrancisTorp/idquisquam.git",
+  "dependencies": {
+    "eslint-config-aqua": "^7.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
+  },
+  "eslintConfig": {
+    "extends": "./prettier/node.js"
+  },
+  "renovate": {
+    "extends": [
+      "teal"
+    ]
+  }
+}
